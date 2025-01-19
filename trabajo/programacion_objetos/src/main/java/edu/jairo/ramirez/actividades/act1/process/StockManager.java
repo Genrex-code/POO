@@ -29,13 +29,13 @@ public class StockManager {
                 System.out.println("Carro agregado: " + brand + " " + model + " (" + bodyType + ")");
                 break;
             default:
-                throw new IllegalArgumentException("no válido: " + bodyType);
+                throw new IllegalArgumentException("Tipo de carrocería no válido: " + bodyType);
         }
     }
 
     public void showStock() {
         if (stock.isEmpty()) {
-            System.out.println("no ay sistema - oxxo.");
+            System.out.println("No hay carros en el inventario.");
         } else {
 
             System.out.printf("%-20s %-20s %-15s %-15s %-20s%n", "Marca", "Modelo", "Año", "Color", "Tipo de carrocería"); // Encabezados
