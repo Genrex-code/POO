@@ -20,10 +20,10 @@ public class Starter {
                         stockManager.showStock();
                         break;
                     case "3":
-                        cli.showMessage("Adieu");
+                        cli.showMessage("Adio");
                         break;
                     default:
-                        cli.showMessage("Opción no válida. Por favor, elige de nuevo.");
+                        cli.showMessage("Opción no válida.");
                 }
             } while (!choice.equals("3"));
         } catch (Exception e) {
@@ -38,7 +38,7 @@ public class Starter {
         String brand = cli.getUserInput();
         System.out.print("Ingrese el modelo del carro: ");
         String model = cli.getUserInput();
-        System.out.print("Ingrese el tipo de carrocería (sedan, suv, hatchback, coupe, convertible, pick up, wagon): ");
+        System.out.print("Ingrese el tipo de carrocería (sedan, suv, coupe, convertible, pick up, wagon): ");
         String bodyType = cli.getUserInput();
         System.out.print("Ingrese el año del carro: ");
         int year = Integer.parseInt(cli.getUserInput());

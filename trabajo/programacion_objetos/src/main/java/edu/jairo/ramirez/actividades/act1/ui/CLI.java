@@ -1,54 +1,30 @@
-package edu.jairo.ramirez.actividades.act1.process;
+package edu.jairo.ramirez.actividades.act1.ui;
 
-import java.util.ArrayList;
+import java.util.Scanner;
 
-import edu.jairo.ramirez.actividades.act1.models.Car;
+public class CLI {
+    private Scanner scanner;
 
-public class StockManager {
-    private ArrayList<Car> stock;
-
-    public StockManager() {
-        this.stock = new ArrayList<>();
+    public CLI() {
+        scanner = new Scanner(System.in);
     }
 
-    public void addCar(String brand, String model, String bodyType, int year, String color) {
-        if (year <= 1953) {
-            throw new IllegalArgumentException("El año debe ser mayor que 1953");
-        }
-
-        switch (bodyType.toLowerCase()) {
-            case "sedan":
-            case "suv":
-            case "hatchback":
-            case "coupe":
-            case "convertible":
-            case "pickup":
-            case "wagon":
-                Car car = new Car(brand, model, bodyType, year, color);
-                stock.add(car);
-                System.out.println("Carro agregado: " + brand + " " + model + " (" + bodyType + ")");
-                break;
-            default:
-                throw new IllegalArgumentException("no válido: " + bodyType);
-        }
+    public void showMenu() {
+        System.out.println("Hi, bienvenido a Actividad 1!");
+        System.out.println("1. Subir Carro");
+        System.out.println("2. Mostrar Catalogo");
+        System.out.println("3. Salir");
     }
 
-    public void showStock() {
-        if (stock.isEmpty()) {
-            System.out.println("no ay sistema - oxxo.");
-        } else {
+    public String getUserInput() {
+        return scanner.nextLine();
+    }
 
-            System.out.printf("%-20s %-20s %-15s %-15s %-20s%n", "Marca", "Modelo", "Año", "Color", "Tipo de carrocería"); // Encabezados
-            System.out.println("---------------------------------------------------------------------------------------------");
-            for (Car car : stock) {
+    public void showMessage(String message) {
+        System.out.println(message);
+    }
 
-                System.out.printf("%-20s %-20s %-15d %-20s %-20s%n", 
-                                  car.getBrand(), 
-                                  car.getModel(), 
-                                  car.getYear(), 
-                                  car.getColor(),
-                                  car.getBodyType()); 
-            }
-        }
+    public void closeScanner() {
+        scanner.close();
     }
 }

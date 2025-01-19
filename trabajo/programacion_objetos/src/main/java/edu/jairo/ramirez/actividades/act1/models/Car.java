@@ -46,7 +46,7 @@ public class Car {
         if (year > 1953) {
             this.year = year;
         } else {
-            throw new IllegalArgumentException("El año debe de ser mayor a 1953");
+            throw new IllegalArgumentException("El año debe ser 1950 en adelante chamaco");
         }
     }
 
