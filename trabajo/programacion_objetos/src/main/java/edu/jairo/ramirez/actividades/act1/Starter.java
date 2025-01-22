@@ -1,5 +1,6 @@
-package edu.jairo.ramirez.actividades.act1.process;
+package edu.jairo.ramirez.actividades.act1;
 
+import edu.jairo.ramirez.actividades.act1.process.StockManager;
 import edu.jairo.ramirez.actividades.act1.ui.CLI;
 
 public class Starter {
