@@ -1,5 +1,3 @@
 package edu.jairo.ramirez.actividades.act2_v2.process;
 
-public class NameG {
-
-}
+public class NameG {}
