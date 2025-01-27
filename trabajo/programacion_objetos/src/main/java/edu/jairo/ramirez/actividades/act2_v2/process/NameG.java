@@ -1,6 +1,6 @@
 package edu.jairo.ramirez.actividades.act2_v2.process;
 
-import data.Nombres;
+import Data.Nombres;
 // verifica que los nombres esten en la lista
 public class NameG {
     public String verificarNombre(String nombre) {

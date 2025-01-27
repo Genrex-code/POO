@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Nombres {
-    // Lista de nombres validos 
+    // Lista de nombres validos se pueden agregar mas :D
     public static List<String> obtenerNombresValidos() {
         return Arrays.asList("yael","carlos","jairo","Juan", "Maria", "Ana");
     }
