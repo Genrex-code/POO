@@ -28,10 +28,10 @@ public class producto {
 
     // IMPRECION DEL PRODUCTO
     public void muestraProducto() {
-        System.out.println("Código: " + codigo);
-        System.out.println("Tipo: " + tipo);
-        System.out.println("Costo: $" + costo);
-        System.out.println("Impuesto: " + (impuesto * 100) + "%");
+        System.out.println("Código de tienda : " + codigo);
+        System.out.println("producto: " + tipo);
+        System.out.println("presio: $" + costo);
+        System.out.println("Impuesto pal gobierno :c ...: " + (impuesto * 100) + "%");
     }
 
     // calculadora del carrito 

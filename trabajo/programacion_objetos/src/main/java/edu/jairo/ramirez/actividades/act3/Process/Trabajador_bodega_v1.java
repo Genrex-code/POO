@@ -1,42 +1,37 @@
 package edu.jairo.ramirez.actividades.act3.process;
-
-import data.producto;
-import data.almacen_v1;
 import java.util.Scanner;
 
+import edu.jairo.ramirez.actividades.act3.data.almacen_v1;
+import edu.jairo.ramirez.actividades.act3.data.producto;
 
-public class trabajador_bodega_v1 {
+
+public class Trabajador_bodega_v1 {
     private almacen_v1 almacen;
     private Scanner scanner;
 
-    public trabajador_bodega_v1(almacen_v1 almacen) {
+    public Trabajador_bodega_v1(almacen_v1 almacen) {
         this.almacen = almacen;
         this.scanner = new Scanner(System.in);
     }
 
     public void agregarProducto() {
-        System.out.println("\n🔧 Ingresando un nuevo producto:");
-
-        System.out.print("Código: ");
+        System.out.println("\n mandando al chalan a poner nuevos productos en la bodega:");
+        System.out.print("Código de la tienda : ");
         String codigo = scanner.nextLine();
-
-        System.out.print("Tipo: ");
+        System.out.print("producto como tal:: ");
         String tipo = scanner.nextLine();
-
-        double costo = leerDouble("Costo: ");
-        double impuesto = leerDouble("Impuesto (en decimal, ej. 0.16 para 16%): ");
-
-        Producto producto = new Producto(codigo, tipo, costo, impuesto);
+        double costo = leerDouble("presio: ");
+        double impuesto = leerDouble("Impuesto (que porcentaje le daremos al gobierno (ay mis ganancias :c)): ");
+        producto producto = new producto(codigo, tipo, costo, impuesto);
         almacen.agregarProducto(producto);
     }
-
     private double leerDouble(String mensaje) {
         while (true) {
             try {
                 System.out.print(mensaje);
                 return Double.parseDouble(scanner.nextLine());
             } catch (NumberFormatException e) {
-                System.out.println("⚠️ Error: Ingrese un número válido.");
+                System.out.println(" Error: Ingrese un número válido no seas wey.");
             }
         }
     }
