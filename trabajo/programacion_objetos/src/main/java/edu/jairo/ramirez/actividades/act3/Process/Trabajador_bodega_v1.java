@@ -3,8 +3,12 @@ import java.util.Scanner;
 
 import edu.jairo.ramirez.actividades.act3.data.almacen_v1;
 import edu.jairo.ramirez.actividades.act3.data.producto;
-
-
+/*
+ * Trabajador_bodega_v1 permite agregar productos al inventario (almacen_v1).
+ * Solicita datos al usuario, los valida y los agrega al almacen.
+ * Usa leerDouble() para evitar errores al ingresar números.}
+ * al final le puse un poco de humor.
+ */
 public class Trabajador_bodega_v1 {
     private almacen_v1 almacen;
     private Scanner scanner;

@@ -1,5 +1,11 @@
 package edu.jairo.ramirez.actividades.act3.data;
- 
+ //** 
+// producto es una clase que representa un producto con un código, tipo, costo e impuesto.
+//Tiene un constructor para inicializar objetos.
+//Contiene métodos getter y setter para acceder y modificar atributos privados.
+//Tiene un método muestraProducto() para imprimir la información del producto.
+//Puede calcular su precio final con el método calcularPrecio(double utilidad), que añade margen de ganancia e impuestos.
+ //** 
 public class producto {
     private String codigo;
     private String tipo;

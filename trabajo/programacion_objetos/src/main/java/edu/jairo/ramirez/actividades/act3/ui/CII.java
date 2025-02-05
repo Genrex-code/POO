@@ -24,9 +24,10 @@ public class CII {
     public void mostrarMenu() {
         while (true) {
             System.out.println("\n bienvenidos ala tienda de la esquina :D :");
-            System.out.println("1️ Agregar producto al inventario");
-            System.out.println("2️ Mostrar inventario");
-            System.out.println("3️ Salir");
+            System.out.println("1 Agregar producto al inventario");
+            System.out.println("2 Mostrar inventario");
+            System.out.println("3 usar el carrito e ir de compras");
+            System.out.println("4 Salir");
 
             System.out.print("escoje algo: ");
             int opcion = scanner.nextInt();
@@ -39,6 +40,9 @@ public class CII {
                     almacen.mostrarInventario();
                     break;
                 case 3:
+                System.out.println("el carrito se le descompuso la llanta y no funciona ");
+                break;
+                case 4:
                     System.out.println(" se me cuidan......................");
                     return;
                 default:

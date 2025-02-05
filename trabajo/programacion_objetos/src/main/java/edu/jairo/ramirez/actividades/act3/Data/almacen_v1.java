@@ -1,7 +1,14 @@
 package edu.jairo.ramirez.actividades.act3.data;
 import java.util.ArrayList;
 import java.util.List;
-// para copiar \n
+// para copiar \n salto de linea xd
+//**
+// almacen_v1 es una clase que gestiona un inventario de productos.
+// Usa una lista (ArrayList) para almacenar productos.
+// Puede agregar productos (agregarProducto).
+// Puede mostrar los productos almacenados (mostrarInventario).
+// Depende de una clase producto, que debería definir el método muestraProducto().
+//**
 public class almacen_v1 {
     private List<producto> inventario;
 
