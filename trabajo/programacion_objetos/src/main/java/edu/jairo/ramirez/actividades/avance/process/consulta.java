@@ -1,5 +1,6 @@
 package edu.jairo.ramirez.actividades.avance.process;
 import edu.jairo.ramirez.actividades.avance.data.Libreria;
+import edu.jairo.ramirez.actividades.avance.data.Libro;
 import edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;
 // consultara libros , usuarios y prestamos
 public class Consulta {

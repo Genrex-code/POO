@@ -1,12 +1,12 @@
 package edu.jairo.ramirez.actividades.avance;
-// aca en el starter pondre un pequeño menu para que pueda seleccion
+// aca en el starter pondre un pequeño menu para que pueda seleccionar el idioma asi biligue poes 
 import edu.jairo.ramirez.actividades.avance.ui.CLI;
-import edu.jairo.ramirez.actividades.act4.data.libreria;
+import edu.jairo.ramirez.actividades.avance.data.Libreria;
 import edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;
 import edu.jairo.ramirez.actividades.avance.process.Consulta;
 import edu.jairo.ramirez.actividades.avance.process.EncargadaBiblioteca;
-import edu.jairo.ramirez.actividades.avance.process.reportegenerador;
-import edu.jairo.ramirez.actividades.avance.process.validador;
+import edu.jairo.ramirez.actividades.avance.process.ReporteGenerador;
+import edu.jairo.ramirez.actividades.avance.process.Validador;
 
 public class starter {
     public static void main(String[] args) {

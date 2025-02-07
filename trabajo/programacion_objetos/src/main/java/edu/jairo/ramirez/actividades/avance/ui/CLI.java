@@ -1,10 +1,13 @@
 package edu.jairo.ramirez.actividades.avance.ui;
 import edu.jairo.ramirez.actividades.avance.process.Consulta;
 import edu.jairo.ramirez.actividades.avance.process.EncargadaBiblioteca;
-import edu.jairo.ramirez.actividades.avance.process.reportegenerador;
-import edu.jairo.ramirez.actividades.avance.process.validador;
+import edu.jairo.ramirez.actividades.avance.process.Validador;
 import edu.jairo.ramirez.actividades.avance.data.Libreria;
 import edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;
+import edu.jairo.ramirez.actividades.avance.data.Usuario;
+import edu.jairo.ramirez.actividades.avance.data.Libro;
+import edu.jairo.ramirez.actividades.avance.process.ReporteGenerador;
+import java.util.Scanner;
 // interfaz a base de variables para el multiidioma asi vien bilingue poes 
 public class CLI {
     private EncargadaBiblioteca encargada;

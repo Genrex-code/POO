@@ -1,6 +1,7 @@
 package edu.jairo.ramirez.actividades.avance.process;
 import  edu.jairo.ramirez.actividades.avance.data.Libreria;
-import  edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;
+import  edu.jairo.ramirez.actividades.avance.data.Libro;
+import edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;
 // se encargara del registro de los libros y de los prestamos ademas que hace que no 
 // se puedan prestar mas de los libros que se tienen en existencia 
 // revisara que se haga el registro correctamente
