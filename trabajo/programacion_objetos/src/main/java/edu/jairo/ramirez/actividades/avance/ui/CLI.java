@@ -27,7 +27,7 @@ public class CLI {
             if (opcion == 1) {
                 System.out.println("Ingrese título del libro:");
                 String titulo = scanner.nextLine();
-                System.out.println("Ingrese ISBN del libro:");
+                System.out.println("Ingrese ISBN(codigo) del libro:");
                 String isbn = scanner.nextLine();
                 encargada.registrarLibro(new Libro(titulo, isbn));
                 System.out.println("Libro agregado.");

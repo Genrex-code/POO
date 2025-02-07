@@ -14,7 +14,7 @@ public class Consulta {
     
     public void consultarLibros() {
         for (Libro libro : libreria.getLibros()) {
-            System.out.println("Título: " + libro.getTitulo() + " | ISBN: " + libro.getIsbn() + " | Disponible: " + libro.isDisponible());
+            System.out.println("Título: " + libro.getTitulo() + " | ISBN(codigo): " + libro.getIsbn() + " | Disponible: " + libro.isDisponible());
         }
     }
 }

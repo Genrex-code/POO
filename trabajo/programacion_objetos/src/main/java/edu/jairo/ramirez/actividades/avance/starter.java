@@ -1,5 +1,5 @@
 package edu.jairo.ramirez.actividades.avance;
-// aca en el starter pondre un pequeño menu para que pueda seleccionar el idioma asi biligue poes 
+// aca en el starter pondre un pequeño menu para que pueda seleccionar el idioma asi biligue poes y tambien va a inicializar el programa 
 import edu.jairo.ramirez.actividades.avance.ui.CLI;
 import edu.jairo.ramirez.actividades.avance.data.Libreria;
 import edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;

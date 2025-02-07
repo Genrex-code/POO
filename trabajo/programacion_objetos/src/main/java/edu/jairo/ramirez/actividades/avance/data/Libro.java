@@ -1,5 +1,5 @@
 package edu.jairo.ramirez.actividades.avance.data;
-
+// me dice que libros han sido prestados 
 public class Libro {
     private String titulo;
     private String isbn;

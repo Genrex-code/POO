@@ -1,8 +1,7 @@
 package edu.jairo.ramirez.actividades.avance.data;
-
 import java.util.ArrayList;
 import java.util.List;
-
+//regula quien a pedido libros de los usuarios
 public class Usuario {
     private String id;
     private List<Libro> prestamos = new ArrayList<>();
