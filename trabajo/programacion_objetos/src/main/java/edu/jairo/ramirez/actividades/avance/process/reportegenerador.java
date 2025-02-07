@@ -1,0 +1,12 @@
+package edu.jairo.ramirez.actividades.avance.process;
+import edu.jairo.ramirez.actividades.avance.data.Libreria;
+import edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;
+// imprime el estado de la biblioteca actual
+public class reportegenerador {
+    public void generarReporte(Libreria libreria) {
+        System.out.println("Libros disponibles: ");
+        for (Libro libro : libreria.getLibros()) {
+            System.out.println(libro.getTitulo());
+        }
+    }
+}
