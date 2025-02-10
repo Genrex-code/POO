@@ -9,6 +9,12 @@ import edu.jairo.ramirez.actividades.avance.data.Libro;
 import edu.jairo.ramirez.actividades.avance.process.ReporteGenerador;
 import java.util.Scanner;
 // interfaz a base de variables para el multiidioma asi vien bilingue poes 
+/*
+ * esta clase esta dedicada a la interfaz de linea de comando CLI para interactuar con la biblioteca y sus diferentes servicios 
+ * y el constructor se basa en 2 que la @encargadabiblioteca y por el otro lado 
+ * estara la consulta de @libro y de @usuario
+ * y un poco mas abajo esta la seccion en la cual se muestran nuestro menu 
+ */
 public class CLI {
     private EncargadaBiblioteca encargada;
     private Consulta consulta;

@@ -1,7 +1,7 @@
 package edu.jairo.ramirez.actividades.avance.process;
 import edu.jairo.ramirez.actividades.avance.data.Libreria;
 import edu.jairo.ramirez.actividades.avance.data.UsuariosGuardados;
-// imprime el estado de la biblioteca actual
+// imprime los libros que hay generales en la biblioteca 
 public class ReporteGenerador {
     public void generarReporte(Libreria libreria) {
         System.out.println("tenemos estos libros: ");
