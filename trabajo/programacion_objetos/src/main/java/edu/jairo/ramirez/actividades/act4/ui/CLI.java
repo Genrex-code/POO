@@ -9,7 +9,30 @@ import edu.jairo.ramirez.actividades.act4.process.GestorCursos;
 import edu.jairo.ramirez.actividades.act4.process.GestorPagos;
 import edu.jairo.ramirez.actividades.act4.process.GestorProfesores;
 //le pedi a chatgpt que me adapte mi menu de otros trabajos a este por temas de comodidad(se me anda descomponiniendo el teclado)
-//de nuevo solo copie y pegue todo 
+//de nuevo solo copie y pegue todo
+    /*
+    * La clase CLI se encarga de mostrar un menú en la consola para interactuar con el usuario.
+    * Se agregaron métodos para agregar un profesor y un alumno.
+    * Constructor de la clase CLI.
+    * Muestra el menú principal y permite al usuario seleccionar una opción
+    * para agregar un profesor, un alumno, calcular y mostrar los pagos, o salir del programa.
+    * @param opcion Opción seleccionada por el usuario.
+    * @param nombre Nombre del profesor.
+    * @param numNomina Número de nómina del profesor.
+    * @param sueldoPorHora Sueldo por hora del profesor.
+    * @param horasSemanales Horas semanales de la materia.
+    * @param nombreMateria Nombre de la materia.
+    * @param claveMateria Clave de la materia.
+    * @param creditos Créditos de la materia.
+    * @param materia Materia asignada al profesor.
+    * @param profesor Profesor a agregar.
+    * @param matricula Matrícula del alumno.
+    * @param nombre Nombre del alumno.
+    * @param edad Edad del alumno.
+    * @param nombreCurso Nombre del curso.
+    * @param materias Materias del curso.
+    * @param materia Materia a agregar al curso.
+    */
 public class CLI {
     private Scanner scanner;
     private GestorPagos gestorPagos;
