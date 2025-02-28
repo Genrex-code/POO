@@ -2,6 +2,13 @@ package edu.jairo.ramirez.actividades.calculadora;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import edu.jairo.ramirez.actividades.calculadora.operaciones.Division;
+import edu.jairo.ramirez.actividades.calculadora.operaciones.Multiplicacion;
+import edu.jairo.ramirez.actividades.calculadora.operaciones.Operacion;
+import edu.jairo.ramirez.actividades.calculadora.operaciones.Potencia;
+import edu.jairo.ramirez.actividades.calculadora.operaciones.Raiz;
+import edu.jairo.ramirez.actividades.calculadora.operaciones.Resta;
+import edu.jairo.ramirez.actividades.calculadora.operaciones.Suma;
 //nota :tomen cafe me ando muriendo son las 3 de la mañana
 public class Calculadora {
     public static void main(String[] args) {
